@@ -1,0 +1,56 @@
+@import url(css/reset.css);
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+body {
+    font-family: 'Poppins', sans-serif;
+ 
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    color: #E5E5E5;
+}
+
+.haupt__bild {
+    background: url(/img/haupt_bild.jpg) no-repeat center/cover;
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+    min-height: 600px;
+   
+}
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+
+.container {
+}
+.text__block {
+    padding-top: 330px;
+}
+.slaider__data {
+    padding-bottom: 15px;
+
+}
+
+h2 {
+    font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+}
+.slaider__losung {
+    color: #F8F9FA;
+    max-width: 605px;
+    padding-bottom: 15px;
+}
+
+.slaider__text {
+    max-width: 499px;
+}
