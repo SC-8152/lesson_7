@@ -3,6 +3,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
 
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap);
+
 body {
     font-family: 'Poppins', sans-serif;
  
@@ -28,8 +30,6 @@ body {
   }
 
 
-.container {
-}
 .text__block {
     padding-top: 330px;
 }
@@ -53,4 +53,124 @@ line-height: 40px;
 
 .slaider__text {
     max-width: 499px;
+}
+
+[class*="__speaker"] {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+
+.hauptbild__speaker {
+    
+    background: linear-gradient( 115deg, rgba(244, 247, 255, 0) 61%,
+    rgba(48, 86, 211, 0.08) 62%, rgba(244, 247, 255, 0) 100% ),
+    linear-gradient(115deg, rgba(244, 247, 255, 0) 68%, rgba(48, 86, 211, 0.08) 60%,
+    rgba(244, 247, 255, 0) 100%), #f4f7ff;
+
+ 
+} 
+.section__speaker {
+ 
+
+	padding-left: 135px;
+	padding-right: 135px;
+    
+  }
+.text__img {
+    padding-top: 145px;
+    
+    max-width: 560px;
+    
+    display: inline-block;
+
+}
+
+
+.img__speaker {
+    display: inline-block;
+}
+
+.akcia__speaker {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 13px;
+    
+    color: #3056D3;
+}
+
+.h2__speaker {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 15px;
+
+    color: #212B36;
+}
+
+.text__speaker {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 35px;
+    
+    color: #637381;
+    
+}
+.link__spaeker {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF; 
+    padding: 10px 30px ;
+    background: #3056D3;
+    border-radius: 30px;
+}
+
+
+
+
+
+[class*="__list"] li{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 167% */
+
+    display: inline;
+    width: 33%;
+    color: #637381;
+}
+
+.unorderedlist {
+}
+/* .section {
+    margin-left: 135px;
+    margin-right: 135px; */
+
+}
+.list__title {
+}
+.title__list {
+}
+.punkt__list li{
+    
+    background: url(img/Ellipse\ 2744.svg) 0 5px  no-repeat;
+
+	margin-bottom: 18px;
+	padding-left: 18px;
+	min-height: 18px;
+}
+.checkmarkblue__list {
+}
+.checkmarkgreenlist__list {
+}
+.crossmarktcirkle__list {
+}
+.crossmarktarrow__list {
+}
+.crossmarktstar__list {
 }
