@@ -23,22 +23,22 @@ body {
    
 }
 [class*="__container"] {
-    max-width: 1270px;
+    max-width: 1210px;
     margin: 0 auto;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
 
 
 .text__block {
     padding-top: 330px;
 }
 .slaider__data {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 
 }
 
-h2 {
+h1 {
     font-weight: 700;
 font-size: 25px;
 line-height: 40px;
@@ -48,16 +48,18 @@ line-height: 40px;
 .slaider__losung {
     color: #F8F9FA;
     max-width: 605px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .slaider__text {
     max-width: 499px;
 }
 
+
+
 [class*="__speaker"] {
     font-family: 'Inter', sans-serif;
-    text-align: left;
+    /* text-align: left; */
 }
 
 
@@ -66,29 +68,36 @@ line-height: 40px;
     background: linear-gradient( 115deg, rgba(244, 247, 255, 0) 61%,
     rgba(48, 86, 211, 0.08) 62%, rgba(244, 247, 255, 0) 100% ),
     linear-gradient(115deg, rgba(244, 247, 255, 0) 68%, rgba(48, 86, 211, 0.08) 60%,
-    rgba(244, 247, 255, 0) 100%), #f4f7ff;
+    rgba(244, 247, 255, 0) 100%), #f4f7ff; 
 
- 
+
+    
 } 
+/* .clearfix {
+    overflow: auto;
+} */
 .section__speaker {
- 
-
-	padding-left: 135px;
-	padding-right: 135px;
+	max-width: 1140px;
+    margin: 0 auto;
+    padding:0 15px 0 15px;
     
   }
 .text__img {
-    padding-top: 145px;
-    
+    margin-top: 145px;
     max-width: 560px;
-    
     display: inline-block;
+    /* text-align: left; */
 
 }
 
 
 .img__speaker {
     display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    width: 545px;
+    text-align: right;
+
 }
 
 .akcia__speaker {
@@ -96,7 +105,6 @@ line-height: 40px;
     font-size: 18px;
     line-height: 24px;
     padding-bottom: 13px;
-    
     color: #3056D3;
 }
 
