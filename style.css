@@ -143,26 +143,36 @@ line-height: 40px;
 
 [class*="__list"] li{
     font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
-    /* identical to box height, or 167% */
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+/* identical to box height, or 94% */
 
-    display: inline;
-    width: 33%;
+
     color: #637381;
 }
 
 .unorderedlist {
+    background: #FFFFFF;
 }
-/* .section {
-    margin-left: 135px;
-    margin-right: 135px; */
+
+.section {
+    max-width: 1140px;
+    margin: 0 auto;
+
+    padding: 50px 15px;
+    
 
 }
-.list__title {
-}
+
 .title__list {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    /* identical to box height, or 108% */
+    
+    
+    color: #212B36;
 }
 .punkt__list li{
     
