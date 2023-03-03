@@ -16,7 +16,7 @@ body {
 }
 
 .haupt__bild {
-    background: url(/img/haupt_bild.jpg) no-repeat center/cover;
+    background: url(img/haupt_bild.jpg) no-repeat center/cover;
     border-radius: 0px 5px 5px 0px;
     width: 100%;
     min-height: 600px;
@@ -158,7 +158,7 @@ line-height: 40px;
 }
 .punkt__list li{
     
-    background: url(img/Ellipse\ 2744.svg) 0 5px  no-repeat;
+    background: url(img/Ellipse\ 2744.png) 0 5px  no-repeat;
 
 	margin-bottom: 18px;
 	padding-left: 18px;
