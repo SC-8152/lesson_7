@@ -170,25 +170,42 @@ line-height: 40px;
     font-size: 26px;
     line-height: 28px;
     /* identical to box height, or 108% */
-    
+    margin-bottom: 40px;
     
     color: #212B36;
 }
-.punkt__list li{
-    
-    background: url(img/Ellipse\ 2744.png) 0 5px  no-repeat;
 
-	margin-bottom: 18px;
-	padding-left: 18px;
-	min-height: 18px;
+.mylist li {
+    padding-left: 30px;
+	min-height: 28px;
 }
-.checkmarkblue__list {
+
+.mylist ul {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 330px;
 }
-.checkmarkgreenlist__list {
+.punct__list li{
+    
+    background: url(img/ellipse.png) 0 8px / 8px no-repeat;
+
 }
-.crossmarktcirkle__list {
+
+.checkblue__list li {
+    background: url(img/group_b.png) 0 2px / 20px no-repeat;
 }
-.crossmarktarrow__list {
+
+.checkgreen__list li {
+    background: url(img/group_g.png) 0 2px / 20px no-repeat;
+
 }
-.crossmarktstar__list {
+.checkgred__list li {
+    background: url(img/group_r.png) 0 2px / 20px no-repeat;
+}
+.vektor__list li {
+    background: url(img/vector.png) 0 8px / 20px no-repeat;
+}
+.star__list li {
+    background: url(img/group_z.png) 0 2px / 20px no-repeat;
+
 }
