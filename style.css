@@ -25,14 +25,15 @@ body {
 [class*="__container"] {
     max-width: 1210px;
     margin: 0 auto;
-   padding: 15px 15px 0px 15px;
-    /* padding-left: 15px; */
-    /* padding-right: 15px; */
+   /* padding: 15px 15px 0px 15px; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
   } 
 
 
 .text__block {
-    margin-top: 315px;
+    margin-top: 330px;
+    display: inline-block;
 }
 .slaider__data {
     margin-bottom: 15px;
