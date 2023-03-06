@@ -25,9 +25,9 @@ body {
 [class*="__container"] {
     max-width: 1210px;
     margin: 0 auto;
-   /* padding: 15px 15px 0px 15px; */
-    /* padding-left: 15px;
-    padding-right: 15px; */
+  
+    padding-left: 15px;
+    padding-right: 15px;
   } 
 
 
