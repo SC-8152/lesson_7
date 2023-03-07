@@ -237,3 +237,31 @@ line-height: 40px;
     background: url(img/group_z.png) 0 14px / 16px no-repeat;
 
 }
+
+.hovbef {
+ font-style: italic;
+ font-size: medium;
+ color: #000;
+ max-width: 1300px;
+ margin: 20px auto;
+
+   
+
+}
+.hb_span::before {
+    content: "HI!";
+    background-color: blueviolet;
+    font-size: 35px;
+    border-radius: 50%;
+}
+.hb_span:hover:before {
+    color: aqua;
+}
+.hb_span::after {
+    content: "BY!";
+    background-color: rgb(107, 226, 43);
+    font-size: 35px;
+}
+.hb_span:hover:after {
+    background-color: cadetblue;
+}
