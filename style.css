@@ -35,8 +35,12 @@ body {
     margin-top: 330px;
     display: inline-block;
 }
+
+.text__block > :not(:last-child) {
+margin-bottom: 15px;
+}
 .slaider__data {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 
 }
 
@@ -50,7 +54,7 @@ line-height: 40px;
 .slaider__losung {
     color: #F8F9FA;
     max-width: 605px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .slaider__text {
@@ -92,6 +96,10 @@ line-height: 40px;
 
 }
 
+.text__img > :not(:last-child) {
+    margin-bottom: 30px;
+}
+
 
 .img__speaker {
     display: inline-block;
@@ -106,7 +114,7 @@ line-height: 40px;
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
-    padding-bottom: 13px;
+    /* margin-bottom: 13px; */
     color: #3056D3;
 }
 
@@ -114,7 +122,7 @@ line-height: 40px;
     font-weight: 700;
     font-size: 36px;
     line-height: 45px;
-    padding-bottom: 15px;
+    /* margin-bottom: 15px; */
 
     color: #212B36;
 }
@@ -123,7 +131,7 @@ line-height: 40px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    padding-bottom: 35px;
+    /* margin-bottom: 35px; */
     
     color: #637381;
     
@@ -132,13 +140,17 @@ line-height: 40px;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-
+    display: inline-block;
     color: #FFFFFF; 
     padding: 10px 30px ;
     background: #3056D3;
     border-radius: 30px;
 }
 
+.link__spaeker:hover {
+    color: red;
+    text-decoration: underline;
+}
 
 
 
@@ -177,8 +189,23 @@ line-height: 40px;
 }
 
 .mylist li {
-    padding-left: 30px;
-	min-height: 28px;
+    margin-left: 30px;
+	min-height: 30px;
+    
+}
+
+.mylist li::before {
+    content: "";
+    display: inline-block;
+    margin-left: -30px;
+    margin-right: 10px;
+    width:  20px;
+    height: 30px;
+    
+}
+
+.mylist li:hover::before {
+    transform: scale(1.5);
 }
 
 .mylist ul {
@@ -186,27 +213,27 @@ line-height: 40px;
     display: inline-block;
     width: 330px;
 }
-.punct__list li{
+.punct__list li::before{
     
-    background: url(img/ellipse.png) 0 8px / 8px no-repeat;
+    background: url(img/ellipse.png) 0 18px / 8px no-repeat;
 
 }
 
-.checkblue__list li {
-    background: url(img/group_b.png) 0 2px / 20px no-repeat;
+.checkblue__list li::before {
+    background: url(img/group_b.png) 0 14px / 16px no-repeat;
 }
 
-.checkgreen__list li {
-    background: url(img/group_g.png) 0 2px / 20px no-repeat;
+.checkgreen__list li::before {
+    background: url(img/group_g.png) 0 14px / 16px no-repeat;
 
 }
-.checkgred__list li {
-    background: url(img/group_r.png) 0 2px / 20px no-repeat;
+.checkgred__list li::before {
+    background: url(img/group_r.png) 0 14px / 16px no-repeat;
 }
-.vektor__list li {
-    background: url(img/vector.png) 0 8px / 20px no-repeat;
+.vektor__list li::before {
+    background: url(img/vector.png) 0 20px / 18px no-repeat;
 }
-.star__list li {
-    background: url(img/group_z.png) 0 2px / 20px no-repeat;
+.star__list li::before {
+    background: url(img/group_z.png) 0 14px / 16px no-repeat;
 
 }
